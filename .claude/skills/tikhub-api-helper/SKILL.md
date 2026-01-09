@@ -1,6 +1,6 @@
 ---
 name: tikhub-api-helper
-description: Search and query TikHub APIs for TikTok, Douyin, Xiaohongshu, Lemon8, Instagram, YouTube, Twitter, Reddit, and more. Use when user asks about TikHub API, wants to find a specific API endpoint, or needs to fetch data from social media platforms. Supports both English and Chinese queries.
+description: Search and query TikHub APIs for TikTok, Douyin, Xiaohongshu, Lemon8, Instagram, YouTube, Twitter, Reddit, and more. Use when user asks about  needs to fetch data from social media platforms. Supports both English and Chinese queries.
 ---
 
 # TikHub API Helper
