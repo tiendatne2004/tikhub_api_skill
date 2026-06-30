@@ -7,7 +7,7 @@
 ## 前置条件
 
 * Claude Code 版本 1.0 或更高版本
-* 对 [Claude Code](/zh-CN/quickstart) 的基本熟悉
+* 对 [Claude Code](https://docs.claude.com/en/docs/claude-code/quickstart) 的基本熟悉
 
 ## 什么是 Agent Skills？
 
@@ -64,7 +64,7 @@ mkdir -p .claude/skills/my-skill-name
 
 ### 插件 Skills
 
-Skills 也可以来自 [Claude Code 插件](/zh-CN/plugins)。插件可能捆绑了在安装插件时自动可用的 Skills。这些 Skills 的工作方式与个人和项目 Skills 相同。
+Skills 也可以来自 [Claude Code 插件](https://docs.claude.com/en/docs/claude-code/plugins)。插件可能捆绑了在安装插件时自动可用的 Skills。这些 Skills 的工作方式与个人和项目 Skills 相同。
 
 ## 编写 SKILL.md
 
@@ -261,7 +261,7 @@ claude --debug
 
 ## 与您的团队共享 Skills
 
-**推荐方法**：通过 [插件](/zh-CN/plugins) 分发 Skills。
+**推荐方法**：通过 [插件](https://docs.claude.com/en/docs/claude-code/plugins) 分发 Skills。
 
 通过插件共享 Skills：
 
@@ -269,7 +269,7 @@ claude --debug
 2. 将插件添加到市场
 3. 团队成员安装插件
 
-有关完整说明，请参阅 [将 Skills 添加到您的插件](/zh-CN/plugins#add-skills-to-your-plugin)。
+有关完整说明，请参阅 [将 Skills 添加到您的插件](https://docs.claude.com/en/docs/claude-code/plugins)。
 
 您也可以直接通过项目存储库共享 Skills：
 

@@ -46,7 +46,7 @@ All API requests require an API Token in the Authorization header:
 
 For development/testing, a default token is embedded in `api_client.py` (from `openapi说明.md:33`):
 ```python
-DEFAULT_TOKEN = "vZdfX8S3nNTqVRrVysjLT4kjaa6yL0gTnBk/aTAi8aA=="
+DEFAULT_TOKEN = ""
 ```
 
 ## API Base URLs
@@ -135,5 +135,5 @@ python .claude/skills/tikhub-api-helper/api_searcher.py <query>
 
 - **API Documentation**: https://api.tikhub.io
 - **Apifox Docs**: https://docs.tikhub.io
-- **API Status**: https://monitor.tikhub.io
+- **API Status**: Check the TikHub user dashboard.
 - **GitHub**: https://github.com/TikHub

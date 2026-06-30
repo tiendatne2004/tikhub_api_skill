@@ -29,7 +29,7 @@ TikHub is a multi-platform social media data API service that provides RESTful i
 - **API Calls** - Call TikHub APIs directly from command line
 - **Multi-platform Support** - Supports 12+ platforms including TikTok, Douyin, Xiaohongshu
 - **Bilingual Support** - Supports both Chinese and English keyword searches
-- **Auto Authentication** - Built-in development API token
+- **Environment Authentication** - Read API tokens from `TIKHUB_API_TOKEN`
 
 ## Installation
 
@@ -54,14 +54,14 @@ Ensure the `.claude/skills/tikhub-api-helper/` directory contains:
 
 ### 3. Get API Token (Optional)
 
-A development API token is built into the code. To use your own token:
+Set your API token before calling authenticated endpoints:
 
 1. Visit [TikHub User](https://www.tikhub.io) and log in
 2. Click "API Keys" on the left sidebar to generate your API token
-3. Set environment variable:
+3. Export it in your shell before running the helper:
 
 ```bash
-在 api_client.py 23行，配置 DEFAULT_TOKEN = "你的 API Token"
+export TIKHUB_API_TOKEN="your API token"
 ```
 
 ## Usage
@@ -226,7 +226,7 @@ tikhub_api_skill/
 - **TikHub Official**: https://www.tikhub.io
 - **API Documentation**: https://api.tikhub.io
 - **Apifox Docs**: https://docs.tikhub.io
-- **API Status Monitor**: https://monitor.tikhub.io
+- **API Status**: Check the TikHub user dashboard.
 - **GitHub**: https://github.com/TikHub
 
 ## License
