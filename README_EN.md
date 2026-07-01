@@ -23,6 +23,16 @@ TikHub is a multi-platform social media data API service that provides RESTful i
 | Weibo | `Weibo-Web-V2-API` | 33 |
 | Zhihu | `Zhihu-Web-API` | 32 |
 
+### Hermes Agent X/Twitter Option
+
+For Hermes Agent workflows that focus specifically on X/Twitter, Hermes Tweet provides a native plugin route with documented `XQUIK_API_KEY` configuration and explicit action gating:
+
+```bash
+hermes plugins install Xquik-dev/hermes-tweet --enable
+```
+
+Keep TikHub API Helper for broad multi-platform TikHub access; use Hermes Tweet when the task is a Hermes Agent X/Twitter plugin workflow.
+
 ## Features
 
 - **API Search** - Search TikHub APIs by keyword, tag, or operation ID
