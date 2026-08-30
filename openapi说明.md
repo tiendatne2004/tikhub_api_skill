@@ -30,6 +30,5 @@ TikHub.io的大多数API都是RESTFUL的，这意味着你只需要使用基本�
 
 ### 真实token
 
-TIKHUB_TOKEN="vZdfXsQag3nNTqVRrVysjLT4kjaa6yL0gTnBk/aTAi8aA=="
-
+TIKHUB_TOKEN="Your_API_Token"
 

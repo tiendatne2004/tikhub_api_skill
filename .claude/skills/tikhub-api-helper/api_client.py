@@ -4,6 +4,7 @@ TikHub API Client
 Makes HTTP requests to TikHub API endpoints.
 """
 import json
+import os
 import sys
 import urllib.request
 import urllib.parse
@@ -19,19 +20,19 @@ class TikHubAPIClient:
     BASE_URL_CHINA = "https://api.tikhub.dev"
     BASE_URL_INTERNATIONAL = "https://api.tikhub.io"
 
-    # Default token from openapi说明.md
-    DEFAULT_TOKEN = "vZdfXsQS3nNTqVRrVysjLT4kjaa6yL0gTnBk/aTAi8aA=="
+    # Token is loaded from the environment to avoid committing credentials.
+    DEFAULT_TOKEN = ""
 
     def __init__(self, api_token: str = None, base_url: str = None, use_china_domain: bool = False):
         """
         Initialize the TikHub API client.
 
         Args:
-            api_token: TikHub API token (uses default if not provided)
+            api_token: TikHub API token (uses TIKHUB_API_TOKEN if not provided)
             base_url: Custom base URL (auto-detected if not provided)
             use_china_domain: Use China domain (api.tikhub.dev) instead of international
         """
-        self.api_token = api_token or self.DEFAULT_TOKEN
+        self.api_token = api_token or os.environ.get("TIKHUB_API_TOKEN") or self.DEFAULT_TOKEN
 
         if base_url:
             self.base_url = base_url
